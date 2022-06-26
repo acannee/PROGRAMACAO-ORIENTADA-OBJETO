@@ -1,0 +1,7 @@
+function func = new function();
+
+func.selectAll(); //Tudo que tem no banco
+func.insert(); //Inserir (só colocar as coisas que pedem no construtor)
+func.excluir();//Exluir (por ID)
+func.atualizar();//Atualizar linha (Preencher a linha que quer mudar por ID, depois oque quer mudar, e depois pelo oque quer mudar Ex: 4, Status, Devolvido)
+func.procurar();//Procurar por titulo (preencher o objeto que quer que procure, se preencher telefone, vai aparecer todos telefones)
